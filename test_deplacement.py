@@ -61,3 +61,6 @@ def turn_left(angle):
 
 def turn_right(angle):
     set_angle(0, 90-angle)
+
+def reinitialize_angle():
+	set_angle(0, 90)
